@@ -25,6 +25,10 @@ public class HospitalDataBase {
 
 	}
 
+	public ArrayList<Hospital> getAllHospitals(){
+		return allHospitals;
+	}
+	
 	
 	public void sortHospitals() {
 		for (Hospital h : allHospitals) {
